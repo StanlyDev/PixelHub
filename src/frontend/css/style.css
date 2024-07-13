@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('src/frontend/img/background/login_fondo.gif');
+    background-image: url('/src/frontend/img/background/login_fondo.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
