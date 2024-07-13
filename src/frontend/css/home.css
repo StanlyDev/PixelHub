@@ -105,6 +105,7 @@ h1 {
 
 .card:hover {
     transform: translateY(-10px);
+    
 }
 
 .card img {

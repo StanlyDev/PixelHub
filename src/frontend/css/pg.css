@@ -72,49 +72,50 @@ h1 {
     gap: 20px;
 }
 
-.grid-cols-1 {
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.md\:grid-cols-3 {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .card {
     color: #fff !important;
     background-color: #212121 !important;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
     height: 100%;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-}
-
 .card img {
-    width: 100%;
-    height: 100%;
+    height: 250px;
+    width: auto;
     object-fit: cover;
+    float: left;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
-.card .p-6 {
+.card-body {
+    display: flex;
+    align-items: center;
     padding: 20px;
 }
 
-.card h3 {
-    font-size: 1.25rem;
+.card-content {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.card-content h5 {
+    font-size: 1.5rem;
     margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.card button {
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    margin-top: 10px;
 }
 
 .card p {
@@ -146,7 +147,7 @@ footer {
 
 @media (max-width: 768px) {
     .grid {
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr !important; /* Una columna en dispositivos pequeños */
     }
 
     nav {
