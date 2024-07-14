@@ -1,3 +1,4 @@
+/* Reset y configuración base */
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +10,12 @@ body {
     background-color: #212121 !important;
 }
 
-a{
+a {
     text-decoration: none !important;
     color: #fff !important;
 }
 
+/* Encabezado y navegación */
 header {
     position: fixed;
     width: 100%;
@@ -28,12 +30,6 @@ nav {
     padding: 5px;
     color: #fff;
     height: 60px;
-}
-
-nav button {
-    margin-top: 1rem;
-    height: 5rem;
-    margin-left: 20px;
 }
 
 .nav-container {
@@ -55,6 +51,13 @@ nav button {
     background-color: #333;
 }
 
+nav button {
+    margin-top: 1rem;
+    height: 5rem;
+    margin-left: 20px;
+}
+
+/* Contenido principal */
 main {
     padding-top: 20px;
 }
@@ -72,6 +75,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Tarjetas de contenido */
 .grid {
     display: grid;
     gap: 20px;
@@ -84,6 +88,8 @@ h1 {
     overflow: hidden;
     transition: transform 0.3s;
     height: 100%;
+    display: flex;
+    flex-direction: row; /* Ajusta la dirección del contenido en vista normal */
 }
 
 .card img {
@@ -115,12 +121,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1.4;
     margin-bottom: 15px;
-}
-
-.card button {
-    font-size: 1.1rem;
-    padding: 12px 24px;
-    margin-top: 10px;
+    text-align: justify;
 }
 
 .card p {
@@ -142,6 +143,7 @@ h1 {
     background-color: #0056b3;
 }
 
+/* Footer */
 footer {
     background-color: #212121 !important;
     color: #fff;
@@ -150,9 +152,10 @@ footer {
     text-align: center;
 }
 
+/* Responsividad */
 @media (max-width: 768px) {
     .grid {
-        grid-template-columns: 1fr !important; /* Una columna en dispositivos pequeños */
+        grid-template-columns: 1fr !important;
     }
 
     nav {
@@ -175,8 +178,47 @@ footer {
         margin: 0;
         margin-top: 15px;
     }
+
+    /* Ajustes para tarjetas en vista móvil */
+    .card {
+        flex-direction: column; /* Cambia la dirección del contenido a columna en dispositivos pequeños */
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .card-body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-content {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .card-content h5 {
+        font-size: 1.2rem;
+    }
+
+    .card-content p {
+        font-size: 1rem;
+    }
+
+    .card button {
+        width: 100%;
+        padding: 10px;
+    }
 }
 
+/* Botones estilizados */
 .button {
     margin: 0;
     height: auto;
