@@ -9,6 +9,10 @@ body {
     background-color: #212121 !important;
 }
 
+a {
+    text-decoration: none;
+  }
+
 header {
     position: fixed;
     width: 100%;
