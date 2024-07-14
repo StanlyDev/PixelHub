@@ -9,9 +9,10 @@ body {
     background-color: #212121 !important;
 }
 
-a {
-    text-decoration: none;
-  }
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
 
 header {
     position: fixed;
