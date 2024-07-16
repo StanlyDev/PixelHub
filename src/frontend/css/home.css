@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-image: url('/PixelHub/src/frontend/img/background/Home_fondo.png');
+    background-image: url('/src/frontend/img/background/Home_fondo.png');
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -222,4 +222,26 @@ footer {
   .button:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 25px var(--animation-color))
+  }
+
+  @keyframes show {
+    from{
+        opacity: 0;
+        scale: 25%;
+    } 
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+  }
+
+  .card{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
   }
