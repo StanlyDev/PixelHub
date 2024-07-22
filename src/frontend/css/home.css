@@ -245,3 +245,9 @@ footer {
     animation-range: entry 25% cover 30%;
     animation-fill-mode: both;
   }
+
+  .card-text img{
+    height: 2rem;
+    width: auto;
+    margin-right: 1rem;
+  }
