@@ -184,6 +184,10 @@ footer {
         flex-direction: column; /* Cambia la dirección del contenido a columna en dispositivos pequeños */
     }
 
+    .card-actions .card-text img {
+        margin-left: 1rem;
+    }
+
     .card img {
         width: 100%;
         height: auto;
@@ -282,3 +286,19 @@ footer {
     animation-range: entry 25% cover 30%;
     animation-fill-mode: both;
   }
+
+  .card-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-actions .btn {
+    margin-right: 1rem;
+}
+
+.card-actions .card-text img {
+    width: 24px;
+    height: auto;
+    border-radius: 0;
+}
