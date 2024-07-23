@@ -1,5 +1,3 @@
----
-
 # PixelHub
 
 ## English
@@ -119,5 +117,3 @@ Para cualquier pregunta o comentario, puedes ponerte en contacto con el desarrol
 - **Nombre**: StanlyDev
 - **Correo Electrónico**: [stanvsdev@gmail.com](mailto:stanvsdev@gmail.com)
 - **GitHub**: [https://github.com/StanlyDev](https://github.com/StanlyDev)
-
----
