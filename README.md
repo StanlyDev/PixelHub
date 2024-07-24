@@ -59,6 +59,8 @@ For any questions or comments, you can contact the developer:
 - **Email**: [stanvsdev@gmail.com](mailto:stanvsdev@gmail.com)
 - **GitHub**: [https://github.com/StanlyDev](https://github.com/StanlyDev)
 
+# PixelHub
+
 ## Español
 
 **PixelHub** es un sitio web de videojuegos diseñado para proporcionar una experiencia visualmente atractiva y organizada para los usuarios. El proyecto está construido con HTML, CSS y JavaScript para ofrecer una interfaz moderna y funcional. A continuación, se detalla la estructura y las tecnologías utilizadas en el desarrollo de PixelHub.
