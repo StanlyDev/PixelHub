@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/PixelHub/src/frontend/css/about.css">
+    <link rel="shortcut icon" href="/PixelHub/src/frontend/img/logo/PixelHubLogo.ico" type="image/x-icon">
+    <script src="/src/frontend/js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>PixelHub</title>
+</head>
+<body>
+        <header class="blurred-header">
+            <nav>
+                <a href="/PixelHub/src/frontend/pages/home.html">
+                    <button class="button" data-text="Awesome" style="cursor: pointer;">
+                        <span class="actual-text">&nbsp;PixelHub&nbsp;</span>
+                        <span aria-hidden="true" class="hover-text">&nbsp;By StanlyDev&nbsp;</span>
+                    </button>
+                </a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </div>
+                <div class="menu-toggle2" id="menu-toggle2">
+                    <p>x</p>
+                </div>
+                <ul class="nav-container" id="nav-container">
+                    <a href="/PixelHub/src/frontend/pages/pg1.html"><li>Games</li></a>
+                    <a href="/PixelHub/src/frontend/pages/bg1.html"><li>Wallpaper</li></a>
+                    <a href="/PixelHub/src/frontend/pages/sw1.html"><li>Software</li></a>
+                    <a href="/PixelHub/src/frontend/pages/about.html"><li>About</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h1>PixelHub</h1>
+                <h2>English</h2>
+                <p><strong>PixelHub</strong> is a video game website designed to provide a visually appealing and organized experience to users. The project is built with HTML, CSS and JavaScript to provide a modern and functional interface. The following details the structure and technologies used in the development of PixelHub.</p>
+                <h3>Description</h3>
+                <p>PixelHub is a website that displays a list of games with images and descriptions, organized in a grid format. It also provides additional information through a modal for a more detailed view of selected games. The design includes a fixed navigation bar and a wallpaper that enhances the aesthetics of the site.</p>
+                <h3>Technologies used</h3>
+                <ul>
+                    <li><strong>HTML</strong>: To structure the page content.</li>
+                    <li><strong>CSS</strong>: For layout and visual presentation, including responsive styles and animations.</li>
+                    <li><strong>JavaScript</strong>: For interactive functionality, such as carousel and modal control.</li>
+                    <li><strong>Bootstrap</strong>: For UI components and additional styling.</li>
+                    <li><strong>Chart.js</strong>: For interactive charts on the inventory page.</li>
+                    <li><strong>Google Fonts</strong>: For improving the typography of the project.</li>
+                </ul>
+                <h3>Project structure</h3>
+                <p>The project is organized as follows:</p>
+                <ul>
+                    <li><code>index.html</code>: Main file containing the page structure.</li>
+                    <li><code>styles/</code>: Folder with CSS files to style the project.</li>
+                    <li><code>scripts/</code>: Folder with JavaScript files for interactive functionality.</li>
+                    <li><code>images/</code>: Folder with the images used in the application.</li>
+                    <li><code>videos/</code>: Folder with the videos shown in the carousel and modal.</li>
+                </ul>
+                <h4>HTML</h4>
+                <p>The HTML defines the structure of the content, including the navigation bar, the main container for the games and the modal for viewing images and videos in detail.</p>
+                <h4>CSS</h4>
+                <p>CSS takes care of the design and aesthetics of the website, covering:</p>
+                <ul>
+                    <li><strong>Base styles</strong>: General configuration of margins, paddings and the base font.</li>
+                    <li><strong>Header and navigation design</strong>: Styles for the fixed navigation bar and the elements within it.</li>
+                    <li><strong>Content cards</strong>: Design of cards displaying games with images, titles and descriptions.</li>
+                    <li><strong>Accessibility</strong>: Settings to ensure the website is accessible and usable on mobile devices.</li>
+                </ul>
+                <h4>JavaScript</h4>
+                <p>The JavaScript file manages the following functionality:</p>
+                <ul>
+                    <li><strong>Modals</strong>: Functionalities to open and close the image and video modal.</li>
+                    <li><strong>Carousels</strong>: Logic for navigating through images in a carousel (although not yet implemented in the current project).</li>
+                </ul>
+                <h3>Screenshots</h3>
+                <p>(<em>Here I will add some screenshots of your website to show the layout and main features</em>).</p>
+                <h3 class="contact">Contact</h3>
+                <p>For any questions or comments, you can contact the developer:</p>
+                <ul>
+                    <li><strong>Name</strong>: StanlyDev</li>
+                    <li><strong>Email</strong>: <a href="mailto:stanvsdev@gmail.com">stanvsdev@gmail.com</a></li>
+                    <li><strong>GitHub</strong>: <a href="https://github.com/StanlyDev">https://github.com/StanlyDev</a></li>
+                </ul>
+                <h2>Español</h2>
+                <p><strong>PixelHub</strong> es un sitio web de videojuegos diseñado para proporcionar una experiencia visualmente atractiva y organizada para los usuarios. El proyecto está construido con HTML, CSS y JavaScript para ofrecer una interfaz moderna y funcional. A continuación, se detalla la estructura y las tecnologías utilizadas en el desarrollo de PixelHub.</p>
+                <h3>Descripción</h3>
+                <p>PixelHub es un sitio web que muestra una lista de juegos con imágenes y descripciones, organizado en un formato de cuadrícula. Además, proporciona información adicional a través de un modal para una vista más detallada de los elementos seleccionados. El diseño incluye una barra de navegación fija y un fondo de pantalla que mejora la estética del sitio.</p>
+                <h3>Tecnologías Utilizadas</h3>
+                <ul>
+                    <li><strong>HTML</strong>: Para estructurar el contenido de la página.</li>
+                    <li><strong>CSS</strong>: Para el diseño y la presentación visual, incluyendo estilos responsivos y animaciones.</li>
+                    <li><strong>JavaScript</strong>: Para la funcionalidad interactiva, como el control de carruseles y modales.</li>
+                    <li><strong>Bootstrap</strong>: Para componentes de interfaz de usuario y estilos adicionales.</li>
+                    <li><strong>Chart.js</strong>: Para gráficos interactivos en la página de inventario.</li>
+                    <li><strong>Google Fonts</strong>: Para mejorar la tipografía del proyecto.</li>
+                </ul>
+                <h3>Estructura del Proyecto</h3>
+                <p>El proyecto se organiza de la siguiente manera:</p>
+                <ul>
+                    <li><code>index.html</code>: Archivo principal que contiene la estructura de la página.</li>
+                    <li><code>styles/</code>: Carpeta con archivos CSS para el estilo del proyecto.</li>
+                    <li><code>scripts/</code>: Carpeta con archivos JavaScript para la funcionalidad interactiva.</li>
+                    <li><code>images/</code>: Carpeta con las imágenes utilizadas en la aplicación.</li>
+                    <li><code>videos/</code>: Carpeta con los videos que se muestran en el carrusel y el modal.</li>
+                </ul>
+                <h4>HTML</h4>
+                <p>El HTML define la estructura del contenido, incluyendo la barra de navegación, el contenedor principal para los juegos y el modal para ver imágenes y videos en detalle.</p>
+                <h4>CSS</h4>
+                <p>El CSS se encarga del diseño y la estética del sitio web, abarcando:</p>
+                <ul>
+                    <li><strong>Estilos Base</strong>: Configuración general de márgenes, paddings y la fuente base.</li>
+                    <li><strong>Diseño del Encabezado y la Navegación</strong>: Estilo para la barra de navegación fija y los elementos dentro de ella.</li>
+                    <li><strong>Tarjetas de Contenido</strong>: Diseño de tarjetas que muestran juegos con imágenes, títulos y descripciones.</li>
+                    <li><strong>Responsividad</strong>: Ajustes para asegurar que el sitio web sea accesible y usable en dispositivos móviles.</li>
+                </ul>
+                <h4>JavaScript</h4>
+                <p>El archivo JavaScript maneja las siguientes funcionalidades:</p>
+                <ul>
+                    <li><strong>Modales</strong>: Funcionalidades para abrir y cerrar el modal de imágenes y videos.</li>
+                    <li><strong>Carruseles</strong>: Lógica para la navegación de imágenes en un carrusel (aunque aún no implementado en el proyecto actual).</li>
+                </ul>
+                <h3 class="contact">Contacto</h3>
+                <p>Para cualquier pregunta o comentario, puedes ponerte en contacto con el desarrollador:</p>
+                <ul>
+                    <li><strong>Nombre</strong>: StanlyDev</li>
+                    <li><strong>Correo Electrónico</strong>: <a href="mailto:stanvsdev@gmail.com">stanvsdev@gmail.com</a></li>
+                    <li><strong>GitHub</strong>: <a href="https://github.com/StanlyDev">https://github.com/StanlyDev</a></li>
+                </ul>
+            </div>
+        </main>
+        <footer class="mt-auto py-3">
+            <div class="container">
+                <p>&copy; 2024 PixelHub. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+</html>

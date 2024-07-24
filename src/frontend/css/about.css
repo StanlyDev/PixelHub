@@ -6,12 +6,7 @@
 }
 
 body {
-    min-height: 100vh;
-    background-image: url('/PixelHub/src/frontend/img/background/Home_fondo.png');
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: #212121 !important;
 }
 
 .blurred-header {
@@ -57,7 +52,7 @@ nav {
 
 .nav-container a {
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
 }
 
 .menu-toggle {
@@ -73,7 +68,7 @@ nav {
 }
 
 main {
-    padding-top: 1rem;
+    padding-top: 4rem;
 }
 
 .container {
@@ -82,94 +77,50 @@ main {
     padding: 0 20px;
 }
 
-a{
-    text-decoration: none !important;
+h1, h2, h3 {
     color: #fff !important;
 }
-
 h1 {
     color: #fff !important;
-    text-align: justify;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
-
-.grid {
-    display: grid;
-    gap: 20px;
-}
-
-.grid-cols-1 {
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.md\:grid-cols-3 {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.card {
+h2 {
     color: #fff !important;
-    background-color: #212121 !important;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s;
-    height: 100%;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+h3 {
+    color: #fff !important;
+    color: #fff !important;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-
+h4{
+    color: #fff !important;
 }
 
-.card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+p{
+    color: #fff !important;
 }
 
-.card .p-6 {
-    padding: 20px;
+ul {
+    color: #fff !important;
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+}
+li {
+    margin: 0.5em 0;
+}
+.contact {
+    margin-top: 1em;
 }
 
-.card h3 {
-    font-size: 1.25rem;
-    margin-bottom: 10px;
-}
-
-.card p {
-    color: #fff;
-}
-
-.card button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.card button:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    background-color: transparent !important;
-    color: #fff;
-    padding-top: 20px;
-    bottom: 0;
-    text-align: center;
+a {
+    color: #007bff !important;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -266,19 +217,10 @@ footer {
     }
   }
 
-  .card{
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-
-    animation-timeline: --image;
-    animation-name: show;
-
-    animation-range: entry 25% cover 30%;
-    animation-fill-mode: both;
-  }
-
-  .card-text img{
-    height: 2rem;
-    width: auto;
-    margin-right: 1rem;
-  }
+  footer {
+    background-color: transparent !important;
+    color: #fff;
+    padding-top: 20px;
+    bottom: 0;
+    text-align: center;
+}
