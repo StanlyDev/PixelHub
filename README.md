@@ -1,6 +1,6 @@
-# PixelHub
-
 ## English
+
+# PixelHub
 
 **PixelHub** is a video game website designed to provide a visually appealing and organized experience to users. The project is built with HTML, CSS and JavaScript to provide a modern and functional interface. The following details the structure and technologies used in the development of PixelHub.
 
@@ -60,6 +60,8 @@ For any questions or comments, you can contact the developer:
 - **GitHub**: [https://github.com/StanlyDev](https://github.com/StanlyDev)
 
 ## Español
+
+# PixelHub
 
 **PixelHub** es un sitio web de videojuegos diseñado para proporcionar una experiencia visualmente atractiva y organizada para los usuarios. El proyecto está construido con HTML, CSS y JavaScript para ofrecer una interfaz moderna y funcional. A continuación, se detalla la estructura y las tecnologías utilizadas en el desarrollo de PixelHub.
 
